@@ -1,0 +1,59 @@
+{
+
+"flex-layout.row#mini": {
+    "children": [
+        "carousel#mini1",
+        "carousel#mini2",
+        "carousel#mini3"
+    ],
+    "props": {
+        "blockClass": "mini"
+    }
+},
+
+"carousel#mini1": {
+    "props": {
+    "autoplay": false,
+    "banners": [
+        {
+        "image": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group25___96f4394cdaee469d3dc5555aabdff8b8.png",
+        "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group25___96f4394cdaee469d3dc5555aabdff8b8.png"
+        }
+    ],
+    "height": 240,
+    "showArrows": false,
+    "showDots": true
+    }
+},
+
+"carousel#mini2": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group24___bc92fc75d1cbdbc059c1a6cd9f9659ec.png",
+          "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group24___bc92fc75d1cbdbc059c1a6cd9f9659ec.png"
+        }
+      ],
+      "height": 240,
+      "showArrows": false,
+      "showDots": true
+    }
+  },
+
+  "carousel#mini3": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group23___a77b68f1e14bbbba033236cd583d62c6.png",
+          "mobileImage": "https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/group23___a77b68f1e14bbbba033236cd583d62c6.png"
+        }
+      ],
+      "height": 240,
+      "showArrows": false,
+      "showDots": true
+    }
+  }
+
+}

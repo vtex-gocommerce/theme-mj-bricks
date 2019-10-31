@@ -1,0 +1,27 @@
+.container {
+    background: none;
+    height: 80px;
+    justify-content: left;
+}
+
+.container > section {
+    margin: 0 0 0 10px;
+}
+
+.container > section > ul {
+    height: 80px;
+}
+
+.itemContainer {
+    height: 80px;
+}
+
+.itemContainer a {
+    font-weight: bold;
+    font-size: 14px;
+    color: #295565;
+    height: 100%;
+    line-height: 80px;
+    padding: 0;
+    margin: 0 15px;
+}

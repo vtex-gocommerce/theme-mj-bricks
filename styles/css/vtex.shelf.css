@@ -1,0 +1,20 @@
+.shelfContentContainer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.title:before {
+    content: "";
+    background: url(https://static.gocommerce.com/gc-bba7553/assets/gocommerce/png/block-image___63851b6….png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 22px;
+    line-height: 40px;
+    color: #2a5565;
+    font-weight: 500;
+}
