@@ -27,6 +27,12 @@
     }
   },
 
+  "login#mobile": {
+    "props": {
+      "showIconProfile": true
+    }
+  },
+
   "header-row#1-desktop": {
     "children": [
       "telemarketing"
@@ -77,6 +83,12 @@
     }
   },
 
+  "search-bar#mobile": {
+    "props": {
+      "compactMode": false 
+    }
+  },
+
   "category-menu": {
     "children": [],
     "props": {
@@ -112,15 +124,16 @@
 
   "header-layout.mobile": {
     "children": [
-      "header-row#1-mobile"
+      "header-row#1-mobile",
+      "header-row#2-mobile"
     ]
   },
   "header-row#1-mobile": {
     "children": [
       "drawer",
-      "logo#mobile",
+      "logo.auto-image",
       "header-spacer",
-      "login",
+      "login#mobile",
       "minicart"
     ],
     "props": {
@@ -128,9 +141,17 @@
       "blockClass": "main-header-mobile"
     }
   },
+
+  "header-row#2-mobile": {
+    "children": [
+      "search-bar#mobile"
+    ]
+  },
+
+  
   "drawer": {
     "children": [
-      "menu#drawer"
+      "category-menu"
     ]
   },
 

@@ -5,3 +5,11 @@
 .logoImage {
     width: 197px;
 }
+
+@media screen and (max-width: 40rem) {
+
+.logoImage {
+    width: 97px;
+}
+
+}

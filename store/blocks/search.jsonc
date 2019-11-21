@@ -41,7 +41,7 @@
       "flex-layout.row#result"
     ],
     "props": {
-      "pagination": "show-more",
+      "pagination": "Loader",
       "mobileLayout": {
         "mode1": "small",
         "mode2": "normal"

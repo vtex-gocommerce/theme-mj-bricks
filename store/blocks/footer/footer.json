@@ -94,13 +94,15 @@
     "props": {
       "blockClass": "payment-methods",
       "paddingTop": 4,
-      "paddingBottom": 4
+      "paddingBottom": 4,
+      "showInColor": true
     }
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
       "accepted-payment-methods",
       "social-networks",
+      "powered-by",
       "rich-text#footer-mobile"
     ],
     "props": {
@@ -115,7 +117,7 @@
       "paddingTop": 4,
       "paddingBottom": 4
     },
-    "children": ["vtex.menu@2.x:menu#footer-mobile"]
+    "children": ["menu.content"]
   },
   "rich-text#footer-mobile": {
     "props": {
