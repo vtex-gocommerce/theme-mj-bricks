@@ -74,7 +74,8 @@
       "flex-layout.row#buy-button",
       "availability-subscriber",
       "shipping-simulator",
-      "share#default"
+      "share#default",
+      "product-description"
     ]
   },
 
