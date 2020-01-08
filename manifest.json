@@ -1,7 +1,7 @@
 {
   "vendor": "gc-bba7553",
   "name": "mj-bricks",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "title": "MJ Bricks Theme",
   "builders": {
     "styles": "1.x",

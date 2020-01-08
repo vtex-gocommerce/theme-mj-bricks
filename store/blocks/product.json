@@ -79,6 +79,12 @@
     ]
   },
 
+  "buy-button": {
+    "props": {
+      "isOneClickBuy": true
+    }
+  }, 
+
   "product-price#product-details": {
     "props": {
       "showInstallments": true,
