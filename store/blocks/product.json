@@ -63,7 +63,7 @@
       "rowGap": 0
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "product-rating-summary",
       "product-price#product-details",
       "product-separator",
@@ -79,11 +79,12 @@
     ]
   },
 
-  "buy-button": {
+  "add-to-cart-button": {
     "props": {
-      "isOneClickBuy": true
+      "isOneClickBuy": true,
+      "customOneClickBuyLink": "/cart"
     }
-  }, 
+  },
 
   "product-price#product-details": {
     "props": {
@@ -97,7 +98,7 @@
       "marginTop": 4,
       "marginBottom": 7
     },
-    "children": ["buy-button"]
+    "children": ["add-to-cart-button"]
   },
 
   "share#default": {
