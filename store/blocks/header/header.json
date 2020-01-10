@@ -176,6 +176,14 @@
       "showDeliveryTotal": false
     }
   },
+  "minicart-empty-state": {
+    "children": ["rich-text#empty-state"]
+  },
+  "rich-text#empty-state": {
+    "props": {
+      "text": "Seu carrinho está vazio!"
+    }
+  },
 
   "logo#mobile": {
     "props": {
