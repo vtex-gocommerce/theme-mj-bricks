@@ -1,7 +1,7 @@
 {
   "vendor": "gc-bba7553",
   "name": "mj-bricks",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "title": "MJ Bricks Theme",
   "builders": {
     "styles": "1.x",
@@ -44,7 +44,13 @@
     "vtex.product-customizer": "2.x",
     "vtex.stack-layout": "0.x",
     "vtex.sandbox": "0.x",
-    "vtex.product-specification-badges": "0.x"
+    "vtex.product-specification-badges": "0.x",
+    "vtex.product-review-interfaces": "1.x",
+    "vtex.telemarketing": "2.x",
+    "vtex.order-placed": "1.x",
+    "vtex.checkout-summary": "0.x",
+    "vtex.product-list": "0.x",
+    "vtex.add-to-cart-button": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
